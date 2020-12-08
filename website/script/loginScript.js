@@ -12,9 +12,10 @@ button.addEventListener("click",(e) =>{
     const name = login.userName.value;
     const password = login.password.value;
 
-    if (name === "user" && password === "123ABC") {
+    if (name === "1" && password === "1") {
         alert("You have successfully logged in.");
-        location.reload();
+        //location.reload();
+        location.replace("../website/design/navigation.html");
     } else if (name == "Admain" && password === "Admain") {
         alert("You have successfully logged in.");
         location.reload();
