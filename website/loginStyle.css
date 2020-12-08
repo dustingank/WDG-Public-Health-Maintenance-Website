@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
+
+#mainContiner {
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+#ErrorMessageContiner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#loginErrorMessage {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#ErrorMessageSecondLine {
+    display: block;
+}
+
+#loginForm{
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.LoginFromClass::placeholder {
+    font-size: 16px;
+    color: #3a3a3a;
+}
+
+.LoginFromClass {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+    width: 200px;
+}
+
+#SubmitButton {
+    width: 50%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #504f4f;
+    cursor: pointer;
+    outline: none;
+}
+
+.error{
+    animation: shake 0.2s ease-in-out 0s 2;
+    background-color: #cf5c5c;
+}
+
+@keyframes shake {
+    0% { margin-left: 0rem; }
+    25% { margin-left: 0.5rem; }
+    75% { margin-left: -0.5rem; }
+    100% { margin-left: 0rem; }
+}
+
