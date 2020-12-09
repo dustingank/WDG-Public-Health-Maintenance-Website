@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/4b53c47d90.js" crossorigin="anonymous"></script>
         <link rel = "stylesheet" href = "../style/navigationStyle.css">
+        <script defer src = "../script/navigationScript.js"></script>
     </head>
 
     <body>
@@ -22,9 +23,23 @@
         </header>
 
         <main id = "NavigationMenue">
-            <h1>Information</h1>
-            <h1>Theamd</h1>
-            <h1>Title</h1>
+            <section class  = "navTable" id = "theme">
+                <img id = "optionLogo" src = "../image/appThemes.png" alt = "App Themes logo" height = "100">
+                <h1 id = "opotionName">App Themes</h1>
+                <span id = "toolTipText">change the in-app colours scheme and the branding</span>
+            </section>
+            <br><br>
+            <section class  = "navTable" id = "info">
+                <img id = "optionLogo" src = "../image/InfoPage.png" alt = "information page logo" height = "100">
+                <h1 id = "opotionName">Information Pages</h1>
+                <span id = "toolTipText">edid and add the in-app information pages</span>
+            </section>
+            <br><br>
+            <section class  = "navTable" id = "analysis">
+                <img id = "optionLogo" src = "../image/database.png" alt = "Ticks Analysis logo" height = "100">
+                <h1 id = "opotionName">Ticks Analysis</h1>
+                <span id = "toolTipText">analysis the ticks</span>
+            </section>
         </main>
            
     </body>

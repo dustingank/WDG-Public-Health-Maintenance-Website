@@ -15,7 +15,7 @@ button.addEventListener("click",(e) =>{
     if (name === "1" && password === "1") {
         alert("You have successfully logged in.");
         //location.reload();
-        location.replace("../website/design/navigation.html");
+        location.replace("navigation.html");
     } else if (name == "Admain" && password === "Admain") {
         alert("You have successfully logged in.");
         location.reload();

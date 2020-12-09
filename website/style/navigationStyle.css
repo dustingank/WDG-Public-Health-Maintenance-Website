@@ -11,6 +11,7 @@ body {
 #PageHeader {
     height: 15%;
     background-color: cornflowerblue;
+    padding-left: 70px;
 }
 .NavHeader {
     height: 100%;
@@ -32,12 +33,53 @@ body {
 }
 
 #user {
-    padding-left: 500px;
+    padding-left: 450px;
     display:inline-block;
     font-size: 50px;
 }
 
-
 #NavigationMenue {
-    padding-left: 40px;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-right: 200px;
+    width: 100%;
+    display: grid;
 }
+
+.navTable {
+    outline-style: solid;
+    padding-top: 5px;
+    width: 77%;
+}
+
+#optionLogo {
+    padding-left: 10px;
+    display:block;
+    float:left;
+}
+
+#opotionName {
+    display:inline-block;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.navTable toolTipText {
+    display: none;
+}
+
+.navTable:hover {
+    background-color: rgb(218, 208, 208);
+}
+
+.navTable span {
+    display:none;
+}
+.navTable:hover span {
+    display:block;
+    font-size: 20px;
+    position:fixed;
+    overflow:hidden;
+}
+
+
