@@ -1,0 +1,70 @@
+<!DOCType html>
+
+<html>
+    <head>
+        <title>Navigation Page</title>
+        <meta charset="UTF-8">
+        <meta name = "information page" content = "PublicHealth Information">
+        <meta name  = "keyWord" content = "HTML, CSS, JavaScript">
+        <meta name  = "Developer" content = " Yizhou Wang">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "../style/naviBar.css">
+        <link rel="stylesheet" href="../style/tinderesque.css">
+        <link rel="stylesheet" href="../style/cuter.css">
+    </head>
+    
+    <body>
+        <nav>
+            <div class = "navigateBar">
+                    <ul class = "nav">
+                        <li> <img src = "../image/WDG_logo2.png" alt = "logo" width="200px" id = "image"></li>
+                        <li><a href = "navigation.html">Home</a></li>
+                        <li><div class="vl"></div></li>
+                        <li><a a href = "infoPage.html">Information</a></li>
+                        <li><div class="vl"></div></li>
+                        <li><a a href = "themePage.html">theme</a></li>
+                        <li><div class="vl"></div></li>
+                        <li class = "active"><a a href = "analysis.html">Analysis</a></li>
+                    </ul>
+            </div>
+        </nav>
+        
+        <main>
+            <div class="cardcontainer list">
+                <ul class="cardlist">
+                        <li class="card current"><img id="myimage" src="../image/1.jpg" alt=""></li>
+                        <li class="card"><img id="myimage" src="../image/2.jpg" alt=""></li>
+                        <li class="card"><img id="myimage" src="../image/3.jpg" alt=""></li>
+                        <li class="card"><img id="myimage" src="../image/4.jpg" alt=""></li>
+                        <li class="card"><img id="myimage" src="../image/5.jpg" alt=""></li>
+                        <template>
+                            <li class="card"><img id="myimage" src="../image/6.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/8.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/9.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/10.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/1.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/2.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/14.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/11.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/13.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/chocolate-puppy.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/5.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/12.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/9.png" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/cute-brown-puppy.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/dalmatian.jpg" alt=""></li>
+                            <li class="card"><img id="myimage" src="../image/derpy-hedgehog.jpg" alt=""></li>
+                        </template>
+                </ul>
+                <button class="but-nope">X</button>
+                <button class="but-yay">✔</button>
+                <span id="counter"></span>
+              </div>
+              <ul class="cardlist" id="results">
+              </ul>
+        </main>
+        <script src="../script/tinderesque.js"></script>
+        <script src="../script/cuter.js"></script>
+
+    </body>
+</html>

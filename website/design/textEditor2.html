@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel = "stylesheet" href = "../style/editior.css">
+    <script src="../script/editior.js"></script>
+</head>
+
+<body>
+  <div id="container" >
+    <fieldset>
+      <button class="fontStyle italic" onclick="document.execCommand('italic',false,null);" title="Italicize Highlighted Text"></button>
+      <button class="fontStyle bold" onclick="document.execCommand( 'bold',false,null);" title="Bold Highlighted Text"></button>
+      <button class="fontStyle underline" onclick="document.execCommand( 'underline',false,null);"></button>
+      <select id="input-font" class="input"  onchange="changeFont (this);">
+        <option value="Arial">Arial</option>
+        <option value="Helvetica">Helvetica</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Sans serif">Sans serif</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Palatino">Palatino</option>
+        <option value="Garamond">Garamond</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Arial Black">Arial Black</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+      </select>
+      <button class="fontStyle strikethrough" onclick="document.execCommand( 'strikethrough',false,null);"><strikethrough></strikethrough></button>
+      <button class="fontStyle align-left" onclick="document.execCommand( 'justifyLeft',false,null);"><justifyLeft></justifyLeft></button>
+      <button class="fontStyle align-center" onclick="document.execCommand( 'justifyCenter',false,null);"><justifyCenter></justifyCenter></button>
+      <button class="fontStyle align-right" onclick="document.execCommand( 'justifyRight',false,null);"><justifyRight></justifyRight></button>
+      <button class="fontStyle redo-apply" onclick="document.execCommand( 'redo',false,null);"><redo></redo></button>
+      <button class="fontStyle undo-apply" onclick="document.execCommand( 'undo',false,null);"><undo></undo></button>
+      <button class="fontStyle orderedlist" onclick="document.execCommand('insertOrderedList', false, null);"><insertOrderedList></insertOrderedList></button>
+      <button class="fontStyle unorderedlist" onclick="document.execCommand('insertUnorderedList',false, null)"><insertUnorderedList></insertUnorderedList></button>    
+      <input class="color-apply" type="color" onchange="chooseColor()" id="myColor"> 
+
+      <!-- font size start -->
+      <select id="fontSize" onclick="changeSize()">
+        <option value="1">1</option>      
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+      <!-- font size end -->
+      
+  </fieldset>
+
+  <div id="editor1" contenteditable="true">Lyme disease, also known as Lyme borreliosis, is an infectious disease caused by the Borrelia bacterium which is spread by ticks. The most common sign of infection is an expanding red rash, known as erythema migrans, that appears at the site of the tick bite about a week after it occurred. The rash is typically neither itchy nor painful. Approximately 70–80% of infected people develop a rash.[1] Other early symptoms may include fever, headache and tiredness. If untreated, symptoms may include loss of the ability to move one or both sides of the face, joint pains, severe headaches with neck stiffness, or heart palpitations, among others. Months to years later, repeated episodes of joint pain and swelling may occur. Occasionally, people develop shooting pains or tingling in their arms and legs. Despite appropriate treatment, about 10 to 20% of people develop joint pains, memory problems, and tiredness for at least six months.
+
+    Lyme disease is transmitted to humans by the bites of infected ticks of the genus Ixodes. In the United States, ticks of concern are usually of the Ixodes scapularis type, and must be attached for at least 36 hours before the bacteria can spread. In Europe, ticks of the Ixodes ricinus type may spread the bacteria more quickly. In North America, the bacteria Borrelia burgdorferi and Borrelia mayonii cause Lyme disease.[2][10] In Europe and Asia, Borrelia afzelii and Borrelia garinii are also causes of the disease. The disease does not appear to be transmissible between people, by other animals, or through food. Diagnosis is based upon a combination of symptoms, history of tick exposure, and possibly testing for specific antibodies in the blood. Blood tests are often negative in the early stages of the disease. Testing of individual ticks is not typically useful.</div>
+  
+    <div class = "leftButton" onclick="function1();">
+        <input type="button" value="cancel" id = "new">
+      </div>
+
+  <div class = "rightButton" onclick="function1();">
+    <input type="button" value="save" id = "new">
+  </div>
+
+    <script>
+        function function1() {
+            location.replace("infoPage.html");
+        }
+    </script>
+</div>
+
+</body>
+</html>

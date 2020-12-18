@@ -10,7 +10,7 @@ body {
 }
 #PageHeader {
     height: 15%;
-    background-color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
     padding-left: 70px;
 }
 .NavHeader {
@@ -47,7 +47,8 @@ body {
 }
 
 .navTable {
-    outline-style: solid;
+    border-radius: 12px;
+    border: 1px solid;
     padding-top: 5px;
     width: 77%;
 }

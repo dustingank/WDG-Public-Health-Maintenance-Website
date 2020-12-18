@@ -1,0 +1,32 @@
+#NavigationMenue {
+    padding-top: 40px;
+    width: 100%;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+#list {
+    width: 70%;
+    justify-content: left;
+}
+
+#button {
+    padding-left: 600px;
+}
+
+#new {
+    border-radius: 12px;
+    font-size: 20px;
+    margin:4px 2px;
+    justify-content: center;
+}
+#opotionName {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#opotionName:hover {
+    background-color: rgb(197, 193, 193);
+    border-radius:20px;
+}
+
